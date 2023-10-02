@@ -84,17 +84,13 @@ function Logo() {
   return <h1>MoH</h1>
 }
 function Search({setSearch}) {
-  const inputEl = useRef()
 
-  useEffect(function () {
-    inputEl.current.focus()
-  })
+  
   return (
   <input  
   type="text"   
   placeholder='Search ..'  
   onChange={(e)=>setSearch(e.target.value)}
-  ref={inputEl} 
   />)
 }
 function Searchresault({resault}) {

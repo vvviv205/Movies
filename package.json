@@ -27,7 +27,7 @@
     "vite": "^4.4.5",
     "gh-pages": "^5.0.0"
   }
-}.
+},
 "browserslist": {
     "production": [
       ">0.2%",

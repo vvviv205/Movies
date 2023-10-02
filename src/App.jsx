@@ -56,7 +56,7 @@ export default function App() {
       <Watchedbox>
         {movieShow == null ? 
         <>
-        <center><h2 style={{marginTop:"0"}}>Wacthed movies :</h2></center>
+        <center><h2 style={{marginTop:"20px"}}>Wacthed movies :</h2></center>
         {watchedmovie.map(movie=><Watchedmovie handleDeleteMovie={handleDeleteMovie} movie={movie}/>)}
         </>
         :
